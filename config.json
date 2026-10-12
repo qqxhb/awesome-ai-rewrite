@@ -1,0 +1,83 @@
+{
+  "project": {
+    "name": "Awesome AI Rewrite",
+    "slug": "awesome-ai-rewrite",
+    "tagline": "聚合全网 AI 逆向 / clean-room 重写的开源项目，一个索引，跟进行业最新动态。",
+    "description": "最近 AI 逆向重写（clean-room reimplementation）爆火，从 Adobe 全家桶到 Claude Code、再到 REA 这类通用逆向框架。本仓库只做一件事：**聚合索引**这些开源项目，自动拉取最新 star / 语言 / 更新时间，按分类呈现，让你一眼看到行业在重写什么。",
+    "github_repo": "qqxhb/awesome-ai-rewrite"
+  },
+  "categories": {
+    "creative": {
+      "name": "🎨 创意设计工具",
+      "icon": "🎨",
+      "description": "对标 Photoshop / Illustrator / Premiere 等商业软件的 clean-room 重写。"
+    },
+    "agent": {
+      "name": "🤖 AI Agent / 编码助手逆向",
+      "icon": "🤖",
+      "description": "对标 Claude Code / Cursor 等闭源 AI 编码产品的开源重写。"
+    },
+    "re-tooling": {
+      "name": "🔧 AI 辅助逆向工程",
+      "icon": "🔧",
+      "description": "把 AI / LLM / MCP 接入逆向工作流的工具与框架。"
+    },
+    "replication": {
+      "name": "🧬 通用复制/克隆框架",
+      "icon": "🧬",
+      "description": "不针对特定产品，而是提供「逆向并重写任意应用」能力的框架。"
+    },
+    "image-gen": {
+      "name": "🖼️ 图像生成逆向",
+      "icon": "🖼️",
+      "description": "对标 Midjourney / DALL·E 等闭源图像生成服务的开源实现。"
+    },
+    "audio-gen": {
+      "name": "🎵 音频/音乐生成逆向",
+      "icon": "🎵",
+      "description": "对标 Suno / Udio 等闭源音乐生成服务的开源实现。"
+    },
+    "video-gen": {
+      "name": "🎬 视频生成逆向",
+      "icon": "🎬",
+      "description": "对标 Sora / Runway / Kling 等闭源视频生成服务的开源实现。"
+    },
+    "llm": {
+      "name": "🧠 LLM / 推理模型逆向",
+      "icon": "🧠",
+      "description": "对标闭源大模型的推理、架构或训练流程重写。"
+    }
+  },
+  "repos": [
+    { "full_name": "storytold/photocraft", "category": "creative", "target": "Adobe Photoshop" },
+    { "full_name": "storytold/vectorcraft", "category": "creative", "target": "Adobe Illustrator" },
+    { "full_name": "storytold/filmcraft", "category": "creative", "target": "Adobe Premiere Pro" },
+    { "full_name": "storytold/lightcraft", "category": "creative", "target": "Adobe Lightroom" },
+    { "full_name": "storytold/effectcraft", "category": "creative", "target": "Adobe After Effects" },
+    { "full_name": "storytold/designcraft", "category": "creative", "target": "Adobe InDesign" },
+    { "full_name": "storytold/pdfcraft", "category": "creative", "target": "Adobe Acrobat" },
+
+    { "full_name": "morluto/rea", "category": "replication", "target": "通用逆向框架 (REA)" },
+
+    { "full_name": "openclaw/openclaw", "category": "agent", "target": "Claude Code / AI Gateway" },
+    { "full_name": "Enderfga/claw-orchestrator", "category": "agent", "target": "Claude Code / 多 Agent 编排" },
+    { "full_name": "Jakeschincariol/replica-skill", "category": "replication", "target": "任意应用 clean-room 克隆" }
+  ],
+  "settings": {
+    "sort_by": "stars",
+    "readme_max_desc_length": 140,
+    "github_api_base": "https://api.github.com"
+  },
+  "discovery": {
+    "keywords": [
+      "clean-room reimplementation",
+      "reverse engineering AI",
+      "reimplementation clone open source",
+      "clean room rewrite",
+      "AI reverse engineer"
+    ],
+    "min_stars": 100,
+    "max_results_per_keyword": 20,
+    "exclude_owners": []
+  }
+}

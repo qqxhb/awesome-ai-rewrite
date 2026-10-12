@@ -1,0 +1,799 @@
+{
+  "generated_at": "2026-10-12T01:47:58.247694+00:00",
+  "total": 46,
+  "note": "以下是自动发现的候选仓库，请人工审核后把需要的加入 config.json 的 repos 数组。",
+  "candidates": [
+    {
+      "full_name": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "stars": 40983,
+      "language": "PowerShell",
+      "html_url": "https://github.com/zhaoxuya520/reverse-skill",
+      "updated_at": "2026-10-12T01:46:46Z",
+      "topics": []
+    },
+    {
+      "full_name": "The-Art-of-Hacking/h4cker",
+      "description": "This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org",
+      "stars": 29695,
+      "language": "Jupyter Notebook",
+      "html_url": "https://github.com/The-Art-of-Hacking/h4cker",
+      "updated_at": "2026-10-12T01:26:08Z",
+      "topics": [
+        "ai",
+        "ai-security",
+        "artificial-intelligence",
+        "awesome-list",
+        "awesome-lists",
+        "cybersecurity",
+        "ethical-hacking",
+        "exploit",
+        "exploit-development",
+        "exploits",
+        "hacker",
+        "hackers",
+        "hacking",
+        "hacking-series",
+        "penetration-testing",
+        "training",
+        "vulnerability",
+        "vulnerability-assessment",
+        "vulnerability-identification",
+        "vulnerability-management"
+      ]
+    },
+    {
+      "full_name": "mrexodia/ida-pro-mcp",
+      "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+      "stars": 12657,
+      "language": "Python",
+      "html_url": "https://github.com/mrexodia/ida-pro-mcp",
+      "updated_at": "2026-10-12T01:01:40Z",
+      "topics": [
+        "ai",
+        "aiagent",
+        "binary-analysis",
+        "ida-plugin",
+        "ida-pro",
+        "mcp",
+        "mcp-server",
+        "modelcontextprotocol",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "full_name": "acheong08/EdgeGPT",
+      "description": "Reverse engineered API of Microsoft's Bing Chat AI",
+      "stars": 7832,
+      "language": "Python",
+      "html_url": "https://github.com/acheong08/EdgeGPT",
+      "updated_at": "2026-10-12T01:26:29Z",
+      "topics": [
+        "bing-ai",
+        "binggpt",
+        "chatgpt",
+        "edge",
+        "edgegpt",
+        "gpt",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "full_name": "storytold/wordcraft",
+      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "stars": 6041,
+      "language": "Rust",
+      "html_url": "https://github.com/storytold/wordcraft",
+      "updated_at": "2026-10-12T01:46:07Z",
+      "topics": []
+    },
+    {
+      "full_name": "bethington/ghidra-mcp",
+      "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+      "stars": 5452,
+      "language": "Java",
+      "html_url": "https://github.com/bethington/ghidra-mcp",
+      "updated_at": "2026-10-12T01:47:13Z",
+      "topics": [
+        "ai",
+        "binary-analysis",
+        "ghidra",
+        "ghidra-extension",
+        "java",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "python",
+        "reverse-engineering",
+        "static-analysis"
+      ]
+    },
+    {
+      "full_name": "Integuru-AI/Integuru",
+      "description": "The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.",
+      "stars": 4774,
+      "language": "Python",
+      "html_url": "https://github.com/Integuru-AI/Integuru",
+      "updated_at": "2026-10-11T12:04:55Z",
+      "topics": [
+        "agent",
+        "agents",
+        "ai-agent",
+        "ai-agents",
+        "api",
+        "apis",
+        "automation",
+        "integration",
+        "integrations",
+        "llm",
+        "open-source",
+        "openapi",
+        "robotic-process-automation",
+        "rpa",
+        "unofficial-api",
+        "unofficial-apis"
+      ]
+    },
+    {
+      "full_name": "HanaokaYuzu/Gemini-API",
+      "description": "✨ Reverse-engineered Python API for Google Gemini web app",
+      "stars": 3571,
+      "language": "Python",
+      "html_url": "https://github.com/HanaokaYuzu/Gemini-API",
+      "updated_at": "2026-10-10T21:01:34Z",
+      "topics": [
+        "ai",
+        "api",
+        "async",
+        "bard",
+        "chatbot",
+        "gemini",
+        "generative-ai",
+        "google",
+        "google-gemini",
+        "image-generation",
+        "imagefx",
+        "llm",
+        "nano-banana",
+        "python",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "full_name": "alejandrobalderas/claude-code-from-source",
+      "description": "Architecture, patterns & internals of Anthropic's AI coding agent — reverse-engineered from source maps",
+      "stars": 2959,
+      "language": "TypeScript",
+      "html_url": "https://github.com/alejandrobalderas/claude-code-from-source",
+      "updated_at": "2026-10-10T15:53:26Z",
+      "topics": []
+    },
+    {
+      "full_name": "storytold/deckcraft",
+      "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+      "stars": 2046,
+      "language": "Rust",
+      "html_url": "https://github.com/storytold/deckcraft",
+      "updated_at": "2026-10-12T01:40:49Z",
+      "topics": []
+    },
+    {
+      "full_name": "vmoranv/jshookmcp",
+      "description": "A search-first, profile-aware reverse-engineering workspace for AI agents — 735 tools across 36 domains in one MCP server.",
+      "stars": 2036,
+      "language": "TypeScript",
+      "html_url": "https://github.com/vmoranv/jshookmcp",
+      "updated_at": "2026-10-11T14:25:45Z",
+      "topics": [
+        "ai-agents",
+        "anti-detection",
+        "browser-automation",
+        "chrome-devtools-protocol",
+        "debugging",
+        "deobfuscation",
+        "frida",
+        "javascript",
+        "js-reverse",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "network-analysis",
+        "reverse-engineering",
+        "security-analysis",
+        "source-maps",
+        "typescript",
+        "wasm",
+        "web-security"
+      ]
+    },
+    {
+      "full_name": "Trystan-SA/claude-design-system-prompt",
+      "description": "Reverse-engineered system prompt and skill library that turns an LLM into an opinionated, accessibility-aware, AI-slop-resistant design collaborator.",
+      "stars": 1986,
+      "language": "",
+      "html_url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "updated_at": "2026-10-11T18:21:45Z",
+      "topics": []
+    },
+    {
+      "full_name": "storytold/soundcraft",
+      "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+      "stars": 1831,
+      "language": "Rust",
+      "html_url": "https://github.com/storytold/soundcraft",
+      "updated_at": "2026-10-12T01:47:38Z",
+      "topics": []
+    },
+    {
+      "full_name": "0x676e67/ninja",
+      "description": "Reverse engineered ChatGPT proxy",
+      "stars": 1675,
+      "language": "Rust",
+      "html_url": "https://github.com/0x676e67/ninja",
+      "updated_at": "2026-10-10T06:49:34Z",
+      "topics": [
+        "ai",
+        "chat",
+        "chatgpt",
+        "docker",
+        "openai",
+        "proxy",
+        "rust",
+        "server"
+      ]
+    },
+    {
+      "full_name": "scadastrangelove/awesome-ai-security-tools",
+      "description": "A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.",
+      "stars": 1604,
+      "language": "Python",
+      "html_url": "https://github.com/scadastrangelove/awesome-ai-security-tools",
+      "updated_at": "2026-10-11T21:32:34Z",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "awesome",
+        "awesome-list",
+        "awesome-lists",
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "full_name": "miscusi-peek/cheatengine-mcp-bridge",
+      "description": "Connect your favorite AI agents directly to Cheat Engine via MCP. Automate reverse engineering, pointer scanning, and memory analysis using natural language.",
+      "stars": 1602,
+      "language": "Lua",
+      "html_url": "https://github.com/miscusi-peek/cheatengine-mcp-bridge",
+      "updated_at": "2026-10-12T01:14:37Z",
+      "topics": [
+        "ai-agents",
+        "ai-tools",
+        "automation",
+        "cheat-engine",
+        "ctf-tools",
+        "debugger",
+        "debugging",
+        "game-research",
+        "game-security",
+        "lua",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "memory-analysis",
+        "modding-tools",
+        "pentesting",
+        "python",
+        "reverse-engineering",
+        "vibecheating",
+        "vibehacking"
+      ]
+    },
+    {
+      "full_name": "2akouwu/reverify",
+      "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+      "stars": 1274,
+      "language": "Python",
+      "html_url": "https://github.com/2akouwu/reverify",
+      "updated_at": "2026-10-12T01:39:08Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-coding",
+        "anti-hallucination",
+        "binary-analysis",
+        "context-engineering",
+        "ctf",
+        "developer-tools",
+        "disassembler",
+        "grounding",
+        "hallucination",
+        "hallucination-detection",
+        "llm",
+        "malware-analysis",
+        "mcp",
+        "mcp-server",
+        "python",
+        "reverse-engineering",
+        "security-tools",
+        "verification"
+      ]
+    },
+    {
+      "full_name": "kalil0321/reverse-api-engineer",
+      "description": "The agent that turns websites into APIs!",
+      "stars": 1267,
+      "language": "Python",
+      "html_url": "https://github.com/kalil0321/reverse-api-engineer",
+      "updated_at": "2026-10-12T01:46:09Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "claude",
+        "cli",
+        "mcp",
+        "openapi",
+        "playwright",
+        "scraping",
+        "web-scraping"
+      ]
+    },
+    {
+      "full_name": "sums001/Windows-Copilot-API",
+      "description": "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.",
+      "stars": 1250,
+      "language": "Python",
+      "html_url": "https://github.com/sums001/Windows-Copilot-API",
+      "updated_at": "2026-10-12T00:42:28Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "api",
+        "copilot",
+        "llm",
+        "microsoft-copilot",
+        "openai"
+      ]
+    },
+    {
+      "full_name": "LING71671/open-reverselab",
+      "description": "Open-source AI reverse-engineering agent platform and MCP server for Ghidra, Frida, x64dbg and Rizin — automated PE/APK/binary analysis, CTF and malware research, with 100+ MCP tools and a 194-article runnable knowledge base.",
+      "stars": 1249,
+      "language": "Python",
+      "html_url": "https://github.com/LING71671/open-reverselab",
+      "updated_at": "2026-10-12T00:05:49Z",
+      "topics": [
+        "ai-agent",
+        "ai-reverse-engineering",
+        "android-reverse-engineering",
+        "binary-analysis",
+        "binary-reverse-engineering",
+        "claude-code",
+        "codex",
+        "ctf",
+        "frida",
+        "ghidra",
+        "ghidra-mcp",
+        "malware-analysis",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "pe-analysis",
+        "reverse-engineering",
+        "reverse-engineering-agent",
+        "rizin",
+        "x64dbg"
+      ]
+    },
+    {
+      "full_name": "Michaelliv/pi-generative-ui",
+      "description": "Claude.ai's generative UI — reverse-engineered, rebuilt for pi. Interactive HTML/SVG widgets in native macOS windows.",
+      "stars": 1161,
+      "language": "TypeScript",
+      "html_url": "https://github.com/Michaelliv/pi-generative-ui",
+      "updated_at": "2026-10-11T23:29:52Z",
+      "topics": []
+    },
+    {
+      "full_name": "mrphrazer/reverser_ai",
+      "description": "Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.",
+      "stars": 1153,
+      "language": "Python",
+      "html_url": "https://github.com/mrphrazer/reverser_ai",
+      "updated_at": "2026-10-11T08:19:04Z",
+      "topics": []
+    },
+    {
+      "full_name": "Fadi002/de4py",
+      "description": "The ultimate AI-powered toolkit for python reverse engineering",
+      "stars": 1007,
+      "language": "Python",
+      "html_url": "https://github.com/Fadi002/de4py",
+      "updated_at": "2026-10-11T09:40:47Z",
+      "topics": [
+        "ai",
+        "ai-deobfuscators",
+        "de4py",
+        "deobfuscator",
+        "engine",
+        "injector",
+        "llm-deobfuscator",
+        "obfuscation",
+        "patcher",
+        "protector",
+        "python",
+        "python-deobfuscator",
+        "python-injector",
+        "python-obfuscator",
+        "python-protector",
+        "python-unprotector",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "full_name": "RockChinQ/free-one-api",
+      "description": "LLM 逆向工程接口管理 | 通过标准 OpenAI API 访问 ChatGPT / gpt4free / Bard / Claude / HuggingChat / 通义千问 等 AI 的破解版 || ChatGPT reverse engineering API management | Access all reverse engineered LLM libs by standard OpenAI API format  || 免费 ChatGPT Free GPT LLM API | 逆向工程 转 OpenAI API | converts all llm libs to OpenAI API",
+      "stars": 918,
+      "language": "Rust",
+      "html_url": "https://github.com/RockChinQ/free-one-api",
+      "updated_at": "2026-10-11T04:01:28Z",
+      "topics": [
+        "bard",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "free",
+        "free-gpt",
+        "freechatgpt",
+        "gpt",
+        "gpt4free",
+        "huggingchat",
+        "one-api",
+        "openai",
+        "proxy",
+        "revchatgpt",
+        "reverse-engineering",
+        "tongyiqianwen"
+      ]
+    },
+    {
+      "full_name": "symgraph/IDAssist",
+      "description": "AI-Powered Reverse Engineering Plugin for IDA Pro",
+      "stars": 870,
+      "language": "Python",
+      "html_url": "https://github.com/symgraph/IDAssist",
+      "updated_at": "2026-10-12T00:21:54Z",
+      "topics": [
+        "ida-plugin",
+        "ida-plugins",
+        "idapro",
+        "llm"
+      ]
+    },
+    {
+      "full_name": "weirdmachine64/GhidraGPT",
+      "description": "Integrate LLM models directly into Ghidra for AI-enhanced reverse engineering.",
+      "stars": 826,
+      "language": "Java",
+      "html_url": "https://github.com/weirdmachine64/GhidraGPT",
+      "updated_at": "2026-10-12T01:00:06Z",
+      "topics": [
+        "agent",
+        "ghidra",
+        "ghidra-extension",
+        "ghidra-plugin",
+        "gpt",
+        "java",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "full_name": "zinja-coder/apktool-mcp-server",
+      "description": "A MCP Server for APK Tool (Part of Android Reverse Engineering MCP Suites)",
+      "stars": 672,
+      "language": "Python",
+      "html_url": "https://github.com/zinja-coder/apktool-mcp-server",
+      "updated_at": "2026-10-11T09:03:15Z",
+      "topics": [
+        "ai",
+        "android",
+        "apktool",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "mobile",
+        "reverse-engineering",
+        "vapt"
+      ]
+    },
+    {
+      "full_name": "ntthanh2603/gemini-web-to-api",
+      "description": "✨Reverse-engineered API for Gemini web app. It can be used as a genuine API key from OpenAI, Gemini, and Claude.",
+      "stars": 511,
+      "language": "Go",
+      "html_url": "https://github.com/ntthanh2603/gemini-web-to-api",
+      "updated_at": "2026-10-11T14:36:39Z",
+      "topics": [
+        "ai",
+        "api",
+        "chatbot",
+        "claude",
+        "docker",
+        "fiber-framework",
+        "gemini",
+        "gemini-api",
+        "generative-ai",
+        "google",
+        "llm",
+        "openai",
+        "proxy-server",
+        "rest-api",
+        "reverse-proxy"
+      ]
+    },
+    {
+      "full_name": "Masriyan/Claude-Code-CyberSecurity-Skill",
+      "description": "22 production-quality Claude Code Skills for cybersecurity professionals — covering offensive security, defensive operations, reverse engineering, threat hunting, threat intelligence, purple team / adversary emulation, CSOC automation, AI/LLM security, mobile, OT/ICS, GRC, software supply chain security, and more. ",
+      "stars": 471,
+      "language": "Python",
+      "html_url": "https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill",
+      "updated_at": "2026-10-10T17:50:23Z",
+      "topics": [
+        "claude-skills",
+        "claudecode"
+      ]
+    },
+    {
+      "full_name": "LunarXuan/image-prompt-reverse",
+      "description": "High-fidelity AI image prompt reverse-engineering skill for Codex",
+      "stars": 470,
+      "language": "",
+      "html_url": "https://github.com/LunarXuan/image-prompt-reverse",
+      "updated_at": "2026-10-11T04:39:23Z",
+      "topics": [
+        "codex",
+        "skill",
+        "skill-md",
+        "skills"
+      ]
+    },
+    {
+      "full_name": "acheong08/OpenAIAuth",
+      "description": "Reverse engineered Auth0 for OpenAI",
+      "stars": 464,
+      "language": "Go",
+      "html_url": "https://github.com/acheong08/OpenAIAuth",
+      "updated_at": "2026-09-30T03:19:14Z",
+      "topics": []
+    },
+    {
+      "full_name": "llnl/OGhidra",
+      "description": "OGhidra bridges Large Language Models (LLMs) via Ollama with the Ghidra reverse engineering platform, enabling AI-driven binary analysis through natural language. Interact with Ghidra using conversational queries and automate complex reverse engineering workflows.",
+      "stars": 454,
+      "language": "Python",
+      "html_url": "https://github.com/llnl/OGhidra",
+      "updated_at": "2026-10-12T00:04:49Z",
+      "topics": []
+    },
+    {
+      "full_name": "PawanOsman/GoogleBard",
+      "description": "GoogleBard - A reverse engineered API for Google Bard chatbot for NodeJS",
+      "stars": 419,
+      "language": "TypeScript",
+      "html_url": "https://github.com/PawanOsman/GoogleBard",
+      "updated_at": "2026-08-16T23:07:41Z",
+      "topics": [
+        "ai",
+        "api",
+        "assistant",
+        "assistant-chat-bots",
+        "chatgpt",
+        "google",
+        "google-bard",
+        "prompt",
+        "reverse-engineering",
+        "scraping"
+      ]
+    },
+    {
+      "full_name": "Strvm/meta-ai-api",
+      "description": "Llama 3 API 70B & 405B (MetaAI Reverse Engineered) ",
+      "stars": 409,
+      "language": "Python",
+      "html_url": "https://github.com/Strvm/meta-ai-api",
+      "updated_at": "2026-10-06T14:51:52Z",
+      "topics": [
+        "405b",
+        "70b",
+        "ai",
+        "api",
+        "llama",
+        "llama2",
+        "llama3",
+        "meta"
+      ]
+    },
+    {
+      "full_name": "yihong0618/SunoSongsCreator",
+      "description": "About High quality songs generation by https://www.suno.ai/. Reverse engineered API.",
+      "stars": 366,
+      "language": "Python",
+      "html_url": "https://github.com/yihong0618/SunoSongsCreator",
+      "updated_at": "2026-10-10T11:08:31Z",
+      "topics": []
+    },
+    {
+      "full_name": "Jakiboy/ReVens",
+      "description": "Windows-based AI-powered Reverse Engineering Toolkit \"AIO\", Built for Security (Malware analysis, Pentesting) & Educational purposes.",
+      "stars": 364,
+      "language": "JavaScript",
+      "html_url": "https://github.com/Jakiboy/ReVens",
+      "updated_at": "2026-10-11T12:49:09Z",
+      "topics": [
+        "awesome-list",
+        "awesome-lists",
+        "malware-analysis",
+        "penetration-testing",
+        "reverse-engineering",
+        "security"
+      ]
+    },
+    {
+      "full_name": "SammySnake-d/fast-context-mcp",
+      "description": "AI-driven semantic code search as an MCP tool — powered by Windsurf's reverse-engineered SWE-grep protocol",
+      "stars": 363,
+      "language": "JavaScript",
+      "html_url": "https://github.com/SammySnake-d/fast-context-mcp",
+      "updated_at": "2026-10-09T09:25:21Z",
+      "topics": []
+    },
+    {
+      "full_name": "eukara/freehl",
+      "description": "Clean-room reimplementation of Half-Life: Deathmatch and Half-Life (Experimental) in QuakeC.",
+      "stars": 321,
+      "language": "QuakeC",
+      "html_url": "https://github.com/eukara/freehl",
+      "updated_at": "2026-10-05T12:22:54Z",
+      "topics": [
+        "fteqw",
+        "game",
+        "nuclide",
+        "quakec"
+      ]
+    },
+    {
+      "full_name": "AbyssEngine/AbyssEngine",
+      "description": "Abyss Engine clean-room reimplementation of Diablo 2, written in C. The goal is to recreate the original game engine, but on a portable platform that can also easily be modded and extended.",
+      "stars": 309,
+      "language": "C",
+      "html_url": "https://github.com/AbyssEngine/AbyssEngine",
+      "updated_at": "2026-10-11T16:26:47Z",
+      "topics": [
+        "c",
+        "diablo",
+        "diablo2",
+        "game-engine"
+      ]
+    },
+    {
+      "full_name": "sums001/Deepseek-API",
+      "description": "Reverse engineered Deepseek chat into an OpenAI compatible API. Access V4 and R1 models through a simple REST interface without API keys or billing.",
+      "stars": 307,
+      "language": "Python",
+      "html_url": "https://github.com/sums001/Deepseek-API",
+      "updated_at": "2026-10-11T03:20:37Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "copilot",
+        "deepseek",
+        "deepseek-api",
+        "deepseek-r1",
+        "deepseek-v4",
+        "llm",
+        "local-ai",
+        "openai"
+      ]
+    },
+    {
+      "full_name": "Zai-Kun/reverse-engineered-chatgpt",
+      "description": "Unofficial reverse-engineered ChatGPT API in Python",
+      "stars": 293,
+      "language": "Python",
+      "html_url": "https://github.com/Zai-Kun/reverse-engineered-chatgpt",
+      "updated_at": "2026-09-20T19:06:59Z",
+      "topics": [
+        "ai",
+        "api",
+        "chatgpt",
+        "chatgpt-api",
+        "chatgpt-free",
+        "openai",
+        "openai-chatgpt",
+        "python",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "full_name": "wangchuxiaoji-oss/doubao2api",
+      "description": "Reverse-engineered Doubao (豆包) API → OpenAI-compatible REST service. Free multimodal chat, image/video/music generation, and file hosting for AI agents.",
+      "stars": 273,
+      "language": "Python",
+      "html_url": "https://github.com/wangchuxiaoji-oss/doubao2api",
+      "updated_at": "2026-10-12T01:04:48Z",
+      "topics": [
+        "ai-agent",
+        "bytedance",
+        "chatgpt-api",
+        "doubao",
+        "doubao-api",
+        "fastapi",
+        "free-api",
+        "multimodal",
+        "openai-api",
+        "openai-compatible",
+        "python",
+        "reverse-engineering",
+        "text-to-image",
+        "text-to-music",
+        "text-to-video"
+      ]
+    },
+    {
+      "full_name": "FairladyZ625/harness-anything",
+      "description": "Clean-room Harness rewrite monorepo",
+      "stars": 229,
+      "language": "TypeScript",
+      "html_url": "https://github.com/FairladyZ625/harness-anything",
+      "updated_at": "2026-10-12T01:33:08Z",
+      "topics": []
+    },
+    {
+      "full_name": "Flamingo-tech/xiaomi-air-purifier-reverse-engineering",
+      "description": "Xiaomi air filter H3 reverse engineering",
+      "stars": 209,
+      "language": "",
+      "html_url": "https://github.com/Flamingo-tech/xiaomi-air-purifier-reverse-engineering",
+      "updated_at": "2026-09-01T06:39:53Z",
+      "topics": []
+    },
+    {
+      "full_name": "biniamf/ai-reverse-engineering",
+      "description": "AI-Assisted Reverse Engineering with Ghidra",
+      "stars": 199,
+      "language": "Python",
+      "html_url": "https://github.com/biniamf/ai-reverse-engineering",
+      "updated_at": "2026-10-11T21:39:50Z",
+      "topics": [
+        "ai-agents",
+        "ghidra",
+        "reverse-engineering",
+        "vulnerability-research"
+      ]
+    },
+    {
+      "full_name": "headcrab-junkyard/OGS",
+      "description": "An open-source GoldSrc engine clone (Clean authentic reimplementation without using reverse-engineered code)",
+      "stars": 153,
+      "language": "C",
+      "html_url": "https://github.com/headcrab-junkyard/OGS",
+      "updated_at": "2026-09-11T11:53:24Z",
+      "topics": [
+        "engine",
+        "game-engine",
+        "goldsource-engine",
+        "goldsrc",
+        "goldsrc-engine",
+        "heavily-modified",
+        "idtech2-engine",
+        "ogs",
+        "ogs-engine",
+        "quake-engine",
+        "reimplementation",
+        "reimplemented-engine"
+      ]
+    }
+  ]
+}

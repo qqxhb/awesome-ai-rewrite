@@ -4,7 +4,7 @@
 
 最近 AI 逆向重写（clean-room reimplementation）爆火，从 Adobe 全家桶到 Claude Code、再到 REA 这类通用逆向框架。本仓库只做一件事：**聚合索引**这些开源项目，自动拉取最新 star / 语言 / 更新时间，按分类呈现，让你一眼看到行业在重写什么。
 
-![项目数](https://img.shields.io/badge/项目数-11-brightgreen) ![总 Stars](https://img.shields.io/badge/总_Stars-594.4k-yellow) ![更新时间](https://img.shields.io/badge/更新-2026-10-12%2001:38%20UTC-blue) ![自动更新](https://img.shields.io/badge/自动更新-GitHub_Actions-success)
+![项目数](https://img.shields.io/badge/项目数-11-brightgreen) ![总 Stars](https://img.shields.io/badge/总_Stars-594.4k-yellow) ![更新时间](https://img.shields.io/badge/更新-2026-10-12%2001:52%20UTC-blue) ![自动更新](https://img.shields.io/badge/自动更新-GitHub_Actions-success)
 
 **GitHub 仓库**：[qqxhb/awesome-ai-rewrite](https://github.com/qqxhb/awesome-ai-rewrite)
 

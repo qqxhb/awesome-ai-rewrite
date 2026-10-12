@@ -27,6 +27,11 @@
       "icon": "🧬",
       "description": "不针对特定产品，而是提供「逆向并重写任意应用」能力的框架。"
     },
+    "api-reverse": {
+      "name": "🔓 闭源 AI API 逆向",
+      "icon": "🔓",
+      "description": "逆向闭源 AI 产品的 Web/客户端 API，封装成可调用的开源接口。"
+    },
     "image-gen": {
       "name": "🖼️ 图像生成逆向",
       "icon": "🖼️",
@@ -56,12 +61,28 @@
     { "full_name": "storytold/effectcraft", "category": "creative", "target": "Adobe After Effects" },
     { "full_name": "storytold/designcraft", "category": "creative", "target": "Adobe InDesign" },
     { "full_name": "storytold/pdfcraft", "category": "creative", "target": "Adobe Acrobat" },
+    { "full_name": "storytold/wordcraft", "category": "creative", "target": "Microsoft Word" },
+    { "full_name": "storytold/deckcraft", "category": "creative", "target": "Microsoft PowerPoint" },
+    { "full_name": "storytold/soundcraft", "category": "creative", "target": "Avid Pro Tools" },
 
     { "full_name": "morluto/rea", "category": "replication", "target": "通用逆向框架 (REA)" },
 
     { "full_name": "openclaw/openclaw", "category": "agent", "target": "Claude Code / AI Gateway" },
     { "full_name": "Enderfga/claw-orchestrator", "category": "agent", "target": "Claude Code / 多 Agent 编排" },
-    { "full_name": "Jakeschincariol/replica-skill", "category": "replication", "target": "任意应用 clean-room 克隆" }
+    { "full_name": "alejandrobalderas/claude-code-from-source", "category": "agent", "target": "Claude Code 架构逆向" },
+    { "full_name": "Jakeschincariol/replica-skill", "category": "replication", "target": "任意应用 clean-room 克隆" },
+    { "full_name": "Integuru-AI/Integuru", "category": "replication", "target": "逆向构建任意 API 集成" },
+    { "full_name": "kalil0321/reverse-api-engineer", "category": "replication", "target": "网站逆向成 API" },
+
+    { "full_name": "mrexodia/ida-pro-mcp", "category": "re-tooling", "target": "IDA Pro + AI MCP" },
+    { "full_name": "bethington/ghidra-mcp", "category": "re-tooling", "target": "Ghidra + AI MCP" },
+
+    { "full_name": "acheong08/EdgeGPT", "category": "api-reverse", "target": "Bing Chat" },
+    { "full_name": "HanaokaYuzu/Gemini-API", "category": "api-reverse", "target": "Google Gemini" },
+    { "full_name": "0x676e67/ninja", "category": "api-reverse", "target": "ChatGPT 代理" },
+    { "full_name": "sums001/Windows-Copilot-API", "category": "api-reverse", "target": "Windows Copilot" },
+    { "full_name": "yihong0618/SunoSongsCreator", "category": "api-reverse", "target": "Suno 音乐" },
+    { "full_name": "Strvm/meta-ai-api", "category": "api-reverse", "target": "Meta AI" }
   ],
   "settings": {
     "sort_by": "stars",

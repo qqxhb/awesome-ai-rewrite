@@ -98,7 +98,22 @@ def fetch_repo(full_name: str) -> dict[str, Any] | None:
         return None
 
 
-def fetch_all_repos(repo_entries: list[dict[str, str]]) -> list[dict[str, Any]]:
+def load_cached_projects() -> dict[str, dict[str, Any]]:
+    """加载已有的 projects.json 作为缓存，key 为 full_name。"""
+    if not PROJECTS_PATH.exists():
+        return {}
+    try:
+        with open(PROJECTS_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return {p["full_name"]: p for p in data.get("projects", [])}
+    except Exception:
+        return {}
+
+
+def fetch_all_repos(
+    repo_entries: list[dict[str, str]], cache: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    """拉取所有仓库元数据。失败时回退到缓存中的旧数据。"""
     results: list[dict[str, Any]] = []
     total = len(repo_entries)
     for idx, entry in enumerate(repo_entries, 1):
@@ -109,6 +124,13 @@ def fetch_all_repos(repo_entries: list[dict[str, str]]) -> list[dict[str, Any]]:
             meta["category"] = entry.get("category", "")
             meta["target"] = entry.get("target", "")
             results.append(meta)
+        elif full_name in cache:
+            # 回退到缓存
+            cached = dict(cache[full_name])
+            cached["category"] = entry.get("category", cached.get("category", ""))
+            cached["target"] = entry.get("target", cached.get("target", ""))
+            print(f"  ↻ {full_name} → 使用缓存数据")
+            results.append(cached)
         time.sleep(SLEEP_BETWEEN_REQUESTS)
     return results
 
@@ -448,7 +470,11 @@ def main() -> int:
     if not (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")):
         print("  ℹ 未设置 GITHUB_TOKEN，速率限制为 60 次/小时")
 
-    projects = fetch_all_repos(repo_entries)
+    cache = load_cached_projects()
+    if cache:
+        print(f"  ↻ 已加载 {len(cache)} 条缓存数据作为回退")
+
+    projects = fetch_all_repos(repo_entries, cache)
     projects = sort_projects(projects, config.get("settings", {}).get("sort_by", "stars"))
 
     write_projects_json(projects, config)

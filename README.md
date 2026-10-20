@@ -4,29 +4,29 @@
 
 最近 AI 逆向重写（clean-room reimplementation）爆火，从 Adobe 全家桶到 Claude Code、再到 REA 这类通用逆向框架。本仓库只做一件事：**聚合索引**这些开源项目，自动拉取最新 star / 语言 / 更新时间，按分类呈现，让你一眼看到行业在重写什么。
 
-![项目数](https://img.shields.io/badge/项目数-25-brightgreen) ![总 Stars](https://img.shields.io/badge/总_Stars-918.7k-yellow) ![更新时间](https://img.shields.io/badge/更新-2026-10-19%2003:12%20UTC-blue) ![自动更新](https://img.shields.io/badge/自动更新-GitHub_Actions-success)
+![项目数](https://img.shields.io/badge/项目数-25-brightgreen) ![总 Stars](https://img.shields.io/badge/总_Stars-936.4k-yellow) ![更新时间](https://img.shields.io/badge/更新-2026-10-20%2003:21%20UTC-blue) ![自动更新](https://img.shields.io/badge/自动更新-GitHub_Actions-success)
 
 **GitHub 仓库**：[qqxhb/awesome-ai-rewrite](https://github.com/qqxhb/awesome-ai-rewrite)
 
 ## 📊 数据概览
 
 - 📦 收录项目：**25**
-- ⭐ 累计 Stars：**918.7k**
+- ⭐ 累计 Stars：**936.4k**
 - 🔠 主流语言：Rust (11), Python (9), TypeScript (4), Java (1)
 
 ## 🔥 热门 TOP 10（按 Stars）
 
 | # | 项目 | ⭐ | 语言 | 对标 |
 | ---: | --- | ---: | --- | --- |
-| 1 | [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | 392.4k | TypeScript | Claude Code / AI Gateway |
-| 2 | [`morluto/rea`](https://github.com/morluto/rea) | 324.0k | TypeScript | 通用逆向框架 (REA) |
-| 3 | [`storytold/photocraft`](https://github.com/storytold/photocraft) | 67.6k | Rust | Adobe Photoshop |
-| 4 | [`storytold/pdfcraft`](https://github.com/storytold/pdfcraft) | 15.9k | Rust | Adobe Acrobat |
-| 5 | [`storytold/filmcraft`](https://github.com/storytold/filmcraft) | 14.9k | Rust | Adobe Premiere Pro |
-| 6 | [`storytold/wordcraft`](https://github.com/storytold/wordcraft) | 14.4k | Rust | Microsoft Word |
-| 7 | [`storytold/lightcraft`](https://github.com/storytold/lightcraft) | 13.7k | Rust | Adobe Lightroom |
+| 1 | [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | 392.8k | TypeScript | Claude Code / AI Gateway |
+| 2 | [`morluto/rea`](https://github.com/morluto/rea) | 338.1k | TypeScript | 通用逆向框架 (REA) |
+| 3 | [`storytold/photocraft`](https://github.com/storytold/photocraft) | 68.7k | Rust | Adobe Photoshop |
+| 4 | [`storytold/pdfcraft`](https://github.com/storytold/pdfcraft) | 16.3k | Rust | Adobe Acrobat |
+| 5 | [`storytold/filmcraft`](https://github.com/storytold/filmcraft) | 15.1k | Rust | Adobe Premiere Pro |
+| 6 | [`storytold/wordcraft`](https://github.com/storytold/wordcraft) | 14.8k | Rust | Microsoft Word |
+| 7 | [`storytold/lightcraft`](https://github.com/storytold/lightcraft) | 13.9k | Rust | Adobe Lightroom |
 | 8 | [`mrexodia/ida-pro-mcp`](https://github.com/mrexodia/ida-pro-mcp) | 13.0k | Python | IDA Pro + AI MCP |
-| 9 | [`storytold/vectorcraft`](https://github.com/storytold/vectorcraft) | 9.9k | Rust | Adobe Illustrator |
+| 9 | [`storytold/vectorcraft`](https://github.com/storytold/vectorcraft) | 10.1k | Rust | Adobe Illustrator |
 | 10 | [`acheong08/EdgeGPT`](https://github.com/acheong08/EdgeGPT) | 7.8k | Python | Bing Chat |
 
 ## 📚 分类索引
@@ -45,16 +45,16 @@
 
 | 项目 | 对标 | 简介 | ⭐ | 语言 | License | 最近更新 |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [`storytold/photocraft`](https://github.com/storytold/photocraft) | Adobe Photoshop | PhotoCraft: An open-source, photo editor written by scratch in pure Rust | 67.6k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/pdfcraft`](https://github.com/storytold/pdfcraft) | Adobe Acrobat | PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust | 15.9k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/filmcraft`](https://github.com/storytold/filmcraft) | Adobe Premiere Pro | FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust | 14.9k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/wordcraft`](https://github.com/storytold/wordcraft) | Microsoft Word | An open-source, clean-room reimplementation of Microsoft Word in pure Rust | 14.4k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/lightcraft`](https://github.com/storytold/lightcraft) | Adobe Lightroom | LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust | 13.7k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/vectorcraft`](https://github.com/storytold/vectorcraft) | Adobe Illustrator | VectorCraft: An open-source, vector art tool written by scratch in pure Rust | 9.9k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/effectcraft`](https://github.com/storytold/effectcraft) | Adobe After Effects | EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust | 7.3k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/designcraft`](https://github.com/storytold/designcraft) | Adobe InDesign | DesignCraft: An open-source page and layout design editor written by scratch in pure Rust | 4.4k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/deckcraft`](https://github.com/storytold/deckcraft) | Microsoft PowerPoint | Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Craft… | 3.8k | Rust | Apache-2.0 | 2026-10-19 |
-| [`storytold/soundcraft`](https://github.com/storytold/soundcraft) | Avid Pro Tools | An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust | 3.3k | Rust | Apache-2.0 | 2026-10-19 |
+| [`storytold/photocraft`](https://github.com/storytold/photocraft) | Adobe Photoshop | PhotoCraft: An open-source, photo editor written by scratch in pure Rust | 68.7k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/pdfcraft`](https://github.com/storytold/pdfcraft) | Adobe Acrobat | PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust | 16.3k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/filmcraft`](https://github.com/storytold/filmcraft) | Adobe Premiere Pro | FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust | 15.1k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/wordcraft`](https://github.com/storytold/wordcraft) | Microsoft Word | An open-source, clean-room reimplementation of Microsoft Word in pure Rust | 14.8k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/lightcraft`](https://github.com/storytold/lightcraft) | Adobe Lightroom | LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust | 13.9k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/vectorcraft`](https://github.com/storytold/vectorcraft) | Adobe Illustrator | VectorCraft: An open-source, vector art tool written by scratch in pure Rust | 10.1k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/effectcraft`](https://github.com/storytold/effectcraft) | Adobe After Effects | EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust | 7.4k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/designcraft`](https://github.com/storytold/designcraft) | Adobe InDesign | DesignCraft: An open-source page and layout design editor written by scratch in pure Rust | 4.5k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/deckcraft`](https://github.com/storytold/deckcraft) | Microsoft PowerPoint | Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Craft… | 3.9k | Rust | Apache-2.0 | 2026-10-20 |
+| [`storytold/soundcraft`](https://github.com/storytold/soundcraft) | Avid Pro Tools | An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust | 3.4k | Rust | Apache-2.0 | 2026-10-20 |
 
 ## 🤖 AI Agent / 编码助手逆向
 
@@ -64,8 +64,8 @@
 
 | 项目 | 对标 | 简介 | ⭐ | 语言 | License | 最近更新 |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | Claude Code / AI Gateway | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 | 392.4k | TypeScript | MIT | 2026-10-19 |
-| [`alejandrobalderas/claude-code-from-source`](https://github.com/alejandrobalderas/claude-code-from-source) | Claude Code 架构逆向 | Architecture, patterns & internals of Anthropic's AI coding agent — reverse-engineered from source maps | 3.0k | TypeScript | - | 2026-10-18 |
+| [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | Claude Code / AI Gateway | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 | 392.8k | TypeScript | MIT | 2026-10-20 |
+| [`alejandrobalderas/claude-code-from-source`](https://github.com/alejandrobalderas/claude-code-from-source) | Claude Code 架构逆向 | Architecture, patterns & internals of Anthropic's AI coding agent — reverse-engineered from source maps | 3.0k | TypeScript | - | 2026-10-20 |
 | [`Enderfga/claw-orchestrator`](https://github.com/Enderfga/claw-orchestrator) | Claude Code / 多 Agent 编排 | Run Claude Code, Codex, Antigravity, Grok Build and OpenCode behind one runtime, and a run only counts as done when checks it didn't write… | 595 | TypeScript | MIT | 2026-10-18 |
 
 ## 🔧 AI 辅助逆向工程
@@ -76,8 +76,8 @@
 
 | 项目 | 对标 | 简介 | ⭐ | 语言 | License | 最近更新 |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [`mrexodia/ida-pro-mcp`](https://github.com/mrexodia/ida-pro-mcp) | IDA Pro + AI MCP | AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP. | 13.0k | Python | MIT | 2026-10-19 |
-| [`bethington/ghidra-mcp`](https://github.com/bethington/ghidra-mcp) | Ghidra + AI MCP | Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcem… | 5.8k | Java | Apache-2.0 | 2026-10-19 |
+| [`mrexodia/ida-pro-mcp`](https://github.com/mrexodia/ida-pro-mcp) | IDA Pro + AI MCP | AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP. | 13.0k | Python | MIT | 2026-10-20 |
+| [`bethington/ghidra-mcp`](https://github.com/bethington/ghidra-mcp) | Ghidra + AI MCP | Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcem… | 5.8k | Java | Apache-2.0 | 2026-10-20 |
 
 ## 🧬 通用复制/克隆框架
 
@@ -87,10 +87,10 @@
 
 | 项目 | 对标 | 简介 | ⭐ | 语言 | License | 最近更新 |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [`morluto/rea`](https://github.com/morluto/rea) | 通用逆向框架 (REA) | Reverse engineer anything with agents, from app behavior down to native binaries. | 324.0k | TypeScript | MIT | 2026-10-19 |
-| [`Integuru-AI/Integuru`](https://github.com/Integuru-AI/Integuru) | 逆向构建任意 API 集成 | The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs. | 4.8k | Python | AGPL-3.0 | 2026-10-17 |
-| [`Jakeschincariol/replica-skill`](https://github.com/Jakeschincariol/replica-skill) | 任意应用 clean-room 克隆 | Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT. | 3.4k | Python | MIT | 2026-10-19 |
-| [`kalil0321/reverse-api-engineer`](https://github.com/kalil0321/reverse-api-engineer) | 网站逆向成 API | The agent that turns websites into APIs! | 1.4k | Python | MIT | 2026-10-18 |
+| [`morluto/rea`](https://github.com/morluto/rea) | 通用逆向框架 (REA) | Reverse engineer anything with agents, from app behavior down to native binaries. | 338.1k | TypeScript | MIT | 2026-10-20 |
+| [`Integuru-AI/Integuru`](https://github.com/Integuru-AI/Integuru) | 逆向构建任意 API 集成 | The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs. | 4.8k | Python | AGPL-3.0 | 2026-10-19 |
+| [`Jakeschincariol/replica-skill`](https://github.com/Jakeschincariol/replica-skill) | 任意应用 clean-room 克隆 | Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT. | 3.6k | Python | MIT | 2026-10-20 |
+| [`kalil0321/reverse-api-engineer`](https://github.com/kalil0321/reverse-api-engineer) | 网站逆向成 API | The agent that turns websites into APIs! | 1.4k | Python | MIT | 2026-10-20 |
 
 ## 🔓 闭源 AI API 逆向
 
@@ -100,10 +100,10 @@
 
 | 项目 | 对标 | 简介 | ⭐ | 语言 | License | 最近更新 |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [`acheong08/EdgeGPT`](https://github.com/acheong08/EdgeGPT) | Bing Chat | Reverse engineered API of Microsoft's Bing Chat AI | 7.8k | Python | Unlicense | 2026-10-17 |
-| [`HanaokaYuzu/Gemini-API`](https://github.com/HanaokaYuzu/Gemini-API) | Google Gemini | ✨ Reverse-engineered Python API for Google Gemini web app | 3.6k | Python | AGPL-3.0 | 2026-10-18 |
+| [`acheong08/EdgeGPT`](https://github.com/acheong08/EdgeGPT) | Bing Chat | Reverse engineered API of Microsoft's Bing Chat AI | 7.8k | Python | Unlicense | 2026-10-19 |
+| [`HanaokaYuzu/Gemini-API`](https://github.com/HanaokaYuzu/Gemini-API) | Google Gemini | ✨ Reverse-engineered Python API for Google Gemini web app | 3.6k | Python | AGPL-3.0 | 2026-10-19 |
 | [`0x676e67/ninja`](https://github.com/0x676e67/ninja) | ChatGPT 代理 | Reverse engineered ChatGPT proxy | 1.7k | Rust | GPL-3.0 | 2026-10-17 |
-| [`sums001/Windows-Copilot-API`](https://github.com/sums001/Windows-Copilot-API) | Windows Copilot | Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API… | 1.3k | Python | MIT | 2026-10-18 |
+| [`sums001/Windows-Copilot-API`](https://github.com/sums001/Windows-Copilot-API) | Windows Copilot | Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API… | 1.3k | Python | MIT | 2026-10-20 |
 | [`Strvm/meta-ai-api`](https://github.com/Strvm/meta-ai-api) | Meta AI | Llama 3 API 70B & 405B (MetaAI Reverse Engineered) | 407 | Python | - | 2026-10-16 |
 | [`yihong0618/SunoSongsCreator`](https://github.com/yihong0618/SunoSongsCreator) | Suno 音乐 | About High quality songs generation by https://www.suno.ai/. Reverse engineered API. | 366 | Python | GPL-3.0 | 2026-10-10 |
 
